@@ -37,12 +37,7 @@ body{
     background-image: url("https://fsa.zobj.net/crop.php?r=GLMj_Xg5Y1SKT8NtjeUDynvq52O24yX2gYpvGbe0Qosc96FUbIoC-TFmDyJ03x1y2Gf7FMtXLwCU3ERXG-dVsRih2iGZy8Xj-gcwvPSy-qGj33oXyoBbyUXvdjFcJeVyMXyV_QnJ38uioImF");
 }
 
-
-@media (max-width:768px){
-    .container{
-        grid-template-columns: repeat(1,1fr);
-    }
-}
+/* --------------------For Tablets------------------- */
 
 @media (min-width:769px) and (max-width:1023px){
     .container{
@@ -51,3 +46,12 @@ body{
 
     
 }
+
+/* -------------------For Smartphones----------------- */
+
+@media (max-width:768px){
+    .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
